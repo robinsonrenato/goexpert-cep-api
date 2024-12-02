@@ -25,7 +25,7 @@ Clone o repositório e entre dentro do diretório, após, rode o seguinte comand
 > CEP é o argumento passado para a aplicação, deve conter 8 dígitos no seguinte formato: 37540000.
 
 ```
-go run cmd/cli/main.go -cep=37540000
+go run cmd/cli/main.go -cep=03947000
 ```
 
 ### Possíveis retornos
@@ -35,8 +35,10 @@ Sucesso:
 ```json
 {
     "api_name": "Via Cep Service",
-    "city": "Santa Rita do Sapucaí",
-    "state": "MG"
+    "bairro" "Jardim Nove de Julho",
+    "logradouro" "Rua Professor Antônio Sampaio Dória",
+    "cidade": "São Paulo",
+    "uf": "SP"
 }
 ```
 
